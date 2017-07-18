@@ -1,0 +1,79 @@
+
+#name{
+     -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    width: 200px;
+}
+.selctrs{
+     -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+        width: 200px;
+
+}
+
+.bbGirl{
+    float: right;
+}
+
+.bbBoy{
+    text-align: left;
+}
+
+small { 
+    font-size: 0.8em;
+}
+
+body{
+    background-color: rgb(251, 185, 190);
+}
+.jumbotron{
+    background:#0096fd;
+    border:2px outset black;
+    text-align: center;
+    }
+.navbar{
+    background:#0096fd; 
+    border:2px outset black;
+
+}
+.navbar1{
+    display: flex;
+    justify-content: space-between;
+    background:#0096fd; 
+    border:2px outset black;
+    padding: 4px 20px;
+
+}
+#navbar{
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+
+}
+
+#submit{
+    padding: 4px 20px;
+    /*give the background a gradient*/
+    background: black;
+    border:2px outset #dad9d8;
+    /*style the text*/
+    font-family:Andika, Arial, sans-serif; /*Andkia is available at http://www.google.com/webfonts/specimen/Andika*/
+    font-size:1.1em;
+    letter-spacing:0.05em;
+    text-transform:uppercase;
+    color:#fff;
+    text-shadow: 0px 1px 10px #000;
+    /*add to small curve to the corners of the button*/
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    /*give the button a drop shadow*/
+    -webkit-box-shadow: rgba(0, 0, 0, .55) 0 1px 6px;
+    -moz-box-shadow: rgba(0, 0, 0, .55) 0 1px 6px;
+    box-shadow: rgba(0, 0, 0, .55) 0 1px 6px;
+}
+/****NOW STYLE THE BUTTON'S HOVER STATE***/
+.shiny:hover, input#shiny:focus {
+    border:2px solid #dad9d8;
+}
